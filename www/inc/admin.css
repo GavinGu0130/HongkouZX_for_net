@@ -1,0 +1,42 @@
+﻿/*tony维护*/
+#dialog>div>.title { background-color:#01C3FF;}
+
+.login>dl { width:318px; border-color:#4EADEF;}
+.login>dl>dt { background-color:#D0E8FB; border-bottom-color:#4EADEF;}
+.login>dl>dd { width:270px; padding:10px 0;}
+.login>dl>dd.code>img { right:8px;}
+
+.header { background-color:#4EADEF;}
+.footer { padding:10px 0;}
+.menu { background-color:#D0E8FB;}
+.menu>div>span { background-color:#9DCEF7;}
+
+.content>div>.place { background-color:#D0E8FB;}
+
+.home>.block { background-color:#4EADEF;}
+.home>.block2 { background-color:#9DCEF7;}
+
+.main>.btn { background-color:#4EADEF;}
+.main>.btn>a { background-color:#C2E1FA;}
+.main>div>strong { background-color:#4EADEF;}
+.main>div>table { background-color:#4EADEF;}
+.main>.line { border-top-color:#4EADEF;}
+.main>.frm { border-color:#4EADEF;}
+
+.main>.cmd>table>tbody>tr { background-color:#D0E8FB;}
+
+.main>.list>table>thead>tr>.cmd { width:90px;}
+
+.main>.bbs>.rule { background-color:#D0E8FB; border-color:#4EADEF;}
+.main>.bbs>table>thead>tr { background-color:#4EADEF;}
+.main>.post>table>tbody>tr>td>.bar { border-bottom-color:#4EADEF;}
+
+div.sms { display:none;}
+div.sms>div { width:640px; height:300px; margin-left:-320px; margin-top:-150px;}
+div.sms>div>.body { height:264px; padding:10px;}
+div.sms>div>.body>textarea { width:99%;}
+div.sms>div>.body>.cmd { padding:10px 0;}
+div.sms>div>.body>.cmd>input { height:32px; margin-bottom:10px; font-size:16px;}
+div.sms>div>.body>.cmd>div { float:right;}
+div.sms>div>.body>.cmd>b { padding-right:5px; color:#F00;}
+div.sms>div>.body>.cmd>span { color:#999;}

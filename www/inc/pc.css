@@ -1,0 +1,265 @@
+﻿/*tony维护*/
+html, form { width:100%; height:100%;}
+body { background-color:#FFF; width:100%; height:100%;}
+table>tbody>tr>td>.readonly { background-color:#EEE; color:#666;}
+
+.header { background-color:#D39453; min-width:1100px; height:90px; line-height:24px; padding:0 10px; border-bottom:1px solid #FFF;}
+.header>.logo { z-index:1; position:relative; height:60px; text-align:center; font-size:16px; font-weight:bold;}
+.header>.logo>i { position:absolute; left:0; top:10px; display:block; background:url(../image/logo.png) center no-repeat; width:50px; height:50px;}
+.header>.logo>img { margin-top:13px;}
+.header>.logo>span { font-size:20px;}
+.header>.logo>u { padding-left:5px; color:#EEE; text-decoration:none; font-size:16px;}
+.header>.hello { float:left;}
+.header>.user { float:right; text-align:right;}
+.footer { clear:both; background-color:#EEE; width:100%; min-width:1100px; line-height:25px; margin-top:20px; padding:15px 0; border-top:1px solid #FFF; color:#666; text-align:center;}
+.menu { clear:both; background-color:#F8DDB2; width:160px; margin:10px; margin-right:0; float:left; border:1px solid #CCC;}
+.menu>div {}
+.menu>div>span { display:block; background-color:#E8B56A; line-height:40px; text-align:center; font-size:16px; font-weight:bold;}
+.menu>div>ul { padding:5px 10px;}
+.menu>div>ul>li { list-style-position:outside; line-height:24px; margin-left:20px; padding:4px 0;}
+.menu>div>ul>li>a>b { display:inline-block; color:#F00; font-weight:normal;}
+
+.dialog { padding:10px;}
+.dialog>div>table { background-color:#D39453; width:100%;}
+.dialog>div>table>thead>tr { background-color:#EEE;}
+.dialog>div>table>thead>tr>td { padding:5px;}
+.dialog>div>table>tbody>tr { background-color:#FFF;}
+.dialog>div>.cmd { text-align:center;}
+.dialog>div>.cmd>input { width:60px; height:28px; margin:5px 5px 0;}
+
+.dialog>.list>table>thead>tr>td>select { height:24px; border:1px solid #CCC;}
+.dialog>.list>table>thead>tr>td>input.txt { width:150px; line-height:18px; padding:2px; border:1px solid #CCC;}
+.dialog>.list>table>tbody>tr>td.sel { width:240px;}
+.dialog>.list>table>tbody>tr>th.cmd { width:140px; font-weight:normal;}
+.dialog>.list>table>tbody>tr>th.cmd>a { display:block; background-color:#EEE; width:60px; margin:auto; border:1px solid #999;}
+.dialog>.list>table>tbody>tr>th.cmd>a>u { display:block; line-height:20px; margin:1px; padding:0 5px; border-left:3px solid #F60; text-align:center; text-decoration:none;}
+.dialog>.list>table>tbody>tr>td>select { width:100%; height:180px;}
+.dialog>.list>table>tbody>tr>td>div { width:100%; height:180px; overflow-y:scroll;}
+.dialog>.list>table>tbody>tr>td>div>span { cursor:pointer; display:block;}
+.dialog>.list>table>tbody>tr>td>div>span.cur { background-color:#999; color:#FFF;}
+.dialog>.hover>table>thead>tr>th { height:24px;}
+.dialog>.hover>table>tbody>tr:hover { background-color:#FFC;}
+.dialog>.hover>table>tbody>tr>td { padding:2px;}
+.dialog>.hover>table>tbody>tr>td>p { line-height:20px; color:#888;}
+.dialog>.list {}
+.dialog>.list>.nav { display:block; line-height:20px; margin:8px 0; text-align:center;}
+.dialog>.list>.nav>b { color:#F00;}
+.dialog>.list>.nav>i { color:#999; font-style:normal;}
+.dialog>.score { margin-bottom:5px;}
+.dialog>.score>select { height:30px;}
+
+.dialog>.edit>table>tbody>tr>th { background-color:#EEE; width:90px; padding:5px; text-align:right;}
+.dialog>.edit>table>tbody>tr>th>b { display:inline-block; margin-right:3px; color:#F00;}
+.dialog>.edit>table>tbody>tr>td { padding:5px;}
+.dialog>.edit>table>tbody>tr>td>input { line-height:20px; padding:2px; border:1px solid #CCC;}
+.dialog>.edit>table>tbody>tr>td>textarea { line-height:20px; padding:2px; border:1px solid #CCC;}
+.dialog>.edit>table>tbody>tr>td>.long { width:90%;}
+
+.dialog>.out>table { background-color:#FFF;}
+.dialog>.out>table>tbody>tr>td { padding:5px 0;}
+.dialog>.out>.cmd { background-color:#EEE; margin-top:10px;}
+.dialog>.out>.cmd>input { margin:10px 0;}
+
+.content { min-width:1100px; min-height:400px; margin-left:182px; padding:10px; padding-left:0;}
+.content>div>.place { background-color:#FEEDA8; line-height:30px; margin-bottom:10px; padding:5px 10px; border:1px solid #CCC; font-size:16px;}
+.content>div>.place>i { background-color:#CCC; width:30px; height:30px; overflow:hidden; margin-right:8px; float:left;}
+.content>div>.place>i>img { width:100%;}
+.content>div>.place>a { text-decoration:underline;}
+
+.content table>thead>tr>.num { width:50px;}
+.content table>thead>tr>.pic { width:100px;}
+.content table>thead>tr>.date { width:100px;}
+.content table>thead>tr>.time { width:150px;}
+.content table>thead>tr>.state { width:100px;}
+.content table>thead>tr>.last { width:250px;}
+
+.home>.block { background-color:#D39453; margin-bottom:10px;}
+.home>.block2 { background-color:#E8B56A;}
+.home>.row { display:inline-block; width:100%;}
+.home>.block>div { padding:5px; border:3px solid #FFF;}
+.home>.block>div>strong { display:block; margin:8px;}
+.home>.block>div>strong>a { color:#FFF; float:right;}
+.home>.block>div>strong>a:hover { color:#FF9;}
+.home>.block>div>table { width:100%;}
+.home>.block>div>table>thead>tr { background-color:#EEE; height:30px;}
+.home>.block>div>table>thead>tr>.cmd { width:64px;}
+.home>.block>div>table>thead>tr>.cmd2 { width:150px;}
+.home>.block>div>table>tbody>tr { background-color:#FFF;}
+.home>.block>div>table>tbody>tr:nth-child(2n+1) { background-color:rgba(255,255,255,0.9);}
+.home>.block>div>table>tbody>tr.save { background-color:#DFE;}
+.home>.block>div>table>tbody>tr.cancel { background-color:#FDD;}
+.home>.block>div>table>tbody>tr.del { background-color:#CCC;}
+.home>.block>div>table>tbody>tr:hover { background-color:#FFC;}
+.home>.block>div>table>tbody>tr>td { line-height:20px; padding:5px;}
+.home>.block>div>table>tbody>tr>td>a { display:inline-block; background-color:#EEE; margin:0 2px; border:1px solid #999;}
+.home>.block>div>table>tbody>tr>td>a>u { display:block; line-height:20px; margin:1px; padding:0 5px; border-left:3px solid #F60; text-align:center; text-decoration:none;}
+.home>.block>div>table>tbody>tr>td.no { padding:20px 10px; color:#999; text-align:center;}
+.home>.block>div>p { line-height:20px; margin:5px;}
+.home>.block>div>p>a { color:#FFF;}
+.home>.block>div>p>a:hover { color:#FF0;}
+
+.main>.cmd { margin:10px 0; text-align:right;}
+.main>.cmd>input { height:32px; margin-left:10px; font-size:16px;}
+.main>.cmd>input.txt { height:initial;}
+.main>.cmd>input.num { width:60px; height:inherit; text-align:center;}
+.main>.cmd>select { height:32px;}
+.main>.cmd>a { display:inline-block; background-color:#EEE; margin:0 3px; border:1px solid #999;}
+.main>.cmd>a>u { display:block; line-height:26px; margin:1px; padding:0 5px; border-left:3px solid #F60; text-align:center; text-decoration:none;}
+.main>.cmd2 { margin-top:0; float:left; text-align:initial;}
+.main>.cmd2>input { margin-left:0;}
+.main>.cmd2>select { margin-right:10px;}
+
+.main>.btn { background-color:#D39453; height:20px; padding:10px;}
+.main>.btn>a { background-color:#FEEDA8; height:25px; line-height:20px; margin-right:10px; padding:10px 10px 0; float:left; border-radius:5px 5px 0 0; color:#666; font-size:16px; font-weight:bold;}
+.main>.btn>a:hover { color:#333;}
+.main>.btn>a.cur { background-color:#FFF; color:#333;}
+.main>.btn>a.hide { display:none;}
+.main>.btn>a>b { color:#F00; font-weight:normal;}
+.main>div>strong { display:block; background-color:#D39453; height:24px; line-height:24px; padding:8px 10px;}
+.main>div>strong.center { text-align:center;}
+.main>div>strong>select { height:24px; margin:0 3px; border:1px solid #CCC;}
+.main>div>strong>input { width:30px; margin:0 3px; line-height:18px; padding:2px; border:1px solid #CCC; text-align:center;}
+.main>div>strong>span { margin-left:15px; float:right; color:#FFF; font-weight:normal;}
+.main>div>strong>span>b { padding-right:4px;}
+.main>div>strong>span>a { display:inline-block; background-color:#EEE; margin:0 3px; border:1px solid #999;}
+.main>div>strong>span>a>u { display:block; line-height:26px; margin:1px; padding:0 5px; border-left:3px solid #F60; text-align:center; text-decoration:none;}
+.main>div>strong>a { float:right;}
+.main>div>strong>a.btn { background-color:#FFF; margin-left:15px; padding:0 6px; border-radius:5px; color:#D39453;}
+.main>div>strong>a.btn:hover { color:#F60;}
+.main>div>strong>u { padding:0 4px; border-bottom:1px solid #333; text-decoration:none; font-weight:normal;}
+.main>div>table { background-color:#D39453; width:100%;}
+.main>div>table>thead>tr { background-color:#EEE;}
+.main>div>table>tbody>tr { background-color:#FFF;}
+.main>div>table>tbody>tr>td { padding:5px;}
+.main>div>table>tbody>tr>td.no { padding:20px 10px; color:#999;}
+.main>div>table>tbody>tr>td>ol { padding-left:30px;}
+.main>div>table>tbody>tr>td>ol>li { margin:5px 0;}
+.main>div>table>tbody>tr>td>a.btn { display:inline-block; background-color:#EEE; margin:2px; border:1px solid #999;}
+.main>div>table>tbody>tr>td>a.btn2 { margin:5px 0;}
+.main>div>table>tbody>tr>td>a>u { display:block; line-height:20px; margin:1px; padding:0 5px; border-left:3px solid #F60; text-align:center; text-decoration:none;}
+.main>div>table>tbody>tr>td>#files>div { display:inline-block; background-color:#F6F6F6; margin:5px; margin-left:0; padding:2px; padding-right:10px; border:1px solid #CCC;}
+.main>div>table>tbody>tr>td>#files>div>u { cursor:pointer; display:inline-block; background-color:#999; width:20px; height:20px; line-height:20px; margin-right:5px; border-radius:50%; color:#FFF; text-align:center; text-decoration:none; font-family:Arial;}
+.main>div>table>tbody>tr>td>#files>div>u:hover { background-color:#BBB;}
+.main>div>table>tbody>tr>td>#files>div>a { color:#06F; text-decoration:underline;}
+.main>div>table>tbody>tr>td>.selmenu{ position:relative; display:none;}
+.main>div>table>tbody>tr>td>.selmenu>div { position:absolute; background-color:#FFF; width:200px; border:1px solid #CCC;}
+.main>div>table>tbody>tr>td>.selmenu>div>span { cursor:pointer; display:block; position:relative; line-height:20px; padding:5px;}
+.main>div>table>tbody>tr>td>.selmenu>div>span.cur { background-color:#EEE;}
+.main>div>table>tbody>tr>td>.selmenu>div>span>div { display:none; position:absolute; top:0; left:200px; background-color:#FFF; width:200px; border:1px solid #CCC;}
+.main>div>table>tbody>tr>td>.selmenu>div>span>div>a { cursor:pointer; display:block; padding:5px;}
+.main>div>table>tbody>tr>td>.selmenu>div>span>div>a:hover { background-color:#EEE;}
+.main>div>table>tbody>tr>td>span>label { padding-right:5px;}
+.main>div>table>tbody>tr>td>i.wx { background:url(m/ico.png) 0 -40px no-repeat; width:20px; height:20px; margin-right:5px; float:left;}
+.main>div>.cmd { text-align:center;}
+.main>div>.cmd>input { margin:5px 10px; padding:6px 12px; font-size:16px;}
+.main>div>.cmd>a { display:inline-block; background-color:#EEE; margin:5px 10px; padding:8px 12px; border:1px solid #999; font-size:16px;}
+.main>div>.cmd>span { float:left;}
+.main>.info { padding:10px; line-height:24px;}
+.main>.info>a { color:#666;}
+.main>.info>a:hover { color:#F60;}
+.main>.line { margin-bottom:10px; border-top:5px solid #D39453;}
+.main>.frm { padding:5px; border:5px solid #D39453;}
+.main>.frm>table { margin:5px 0;}
+.main>.cmd>table>tbody>tr { background-color:#F8DDB2;}
+.main>.cmd>table>tbody>tr>td>select { min-width:100px; height:26px; margin:0 5px; border:1px solid #CCC;}
+.main>.cmd>table>tbody>tr>td>input { margin:0 5px;}
+.main>.edit { margin-bottom:10px;}
+.main>.edit>table>thead>tr>th { width:140px; padding:10px 5px; vertical-align:top; text-align:right;}
+.main>.edit>table>thead>tr>td { padding:5px;}
+.main>.edit>table>tbody>tr>th { background-color:#EEE; width:140px; padding:10px 5px; vertical-align:top; text-align:right;}
+.main>.edit>table>tbody>tr>th>b { padding-right:5px; color:#F00;}
+.main>.edit>table>tbody>tr>th>i { color:#666; font-weight:normal; font-style:normal;}
+.main>.edit>table>tbody>tr>td>select { width:206px; height:26px; border:1px solid #CCC;}
+.main>.edit>table>tbody>tr>td>input { width:200px; line-height:20px; padding:2px; border:1px solid #CCC;}
+.main>.edit>table>tbody>tr>td>input.num { width:40px;}
+.main>.edit>table>tbody>tr>td>input.double { width:400px;}
+.main>.edit>table>tbody>tr>td>textarea { line-height:20px; padding:2px; border:1px solid #CCC;}
+.main>.edit>table>tbody>tr>td>.long { width:80%;}
+.main>.edit>table>tbody>tr>td>.editor { width:90%;}
+.main>.edit>table>tbody>tr>td.pic { text-align:center;}
+.main>.edit>table>tbody>tr>td.pic>img { max-height:240px;}
+.main>.edit>table>tbody>tr>td>.check { line-height:24px;}
+.main>.edit>table>tbody>tr>td>.check>b { color:#999;}
+.main>.edit>table>tbody>tr>td>.check>span { color:#F00;}
+.main>.edit>table>tbody>tr>td>.check>a { cursor:pointer; display:inline-block; background-color:#F60; margin-left:5px; padding:0 5px; border-radius:5px; color:#FFF;}
+.main>.list { margin-bottom:10px;}
+.main>.list>.nav { display:block; line-height:20px; margin:8px 0; text-align:center;}
+.main>.list>.nav>b { color:#F00;}
+.main>.list>.nav>i { color:#999; font-style:normal;}
+.main>.list>ul { display:block; margin:auto; padding:30px 10px;}
+.main>.list>ul>li { display:inline-block; width:400px; height:260px; padding:15px; text-align:center;}
+.main>.list>ul>li>a { display:block; background-color:#F6F6F6; padding:15px 0;}
+.main>.list>ul>li>a:hover { background-color:#EEE;}
+.main>.list>ul>li>a>img { display:block; width:300px; height:200px; margin:auto;}
+.main>.list>ul>li>a>span { display:block; width:300px; height:20px; line-height:20px; margin:10px auto 0; overflow:hidden; font-size:16px;}
+.main>.list>dl { width:820px; margin:auto; padding:20px;}
+.main>.list>dl>dt { margin-bottom:20px; text-align:center;}
+.main>.list>dl>dt>strong { display:block; font-size:20px; font-weight:bold;}
+.main>.list>dl>dt>span { display:block; margin-top:10px; color:#999; font-weight:normal;}
+.main>.list>dl>dd { line-height:28px; padding-top:10px; color:#666; font-size:16px;}
+.main>.list>dl>dd>embed { display:block; width:600px; height:400px; margin:auto;}
+.main>.list>dl>dd>iframe { display:block; width:600px; height:400px; margin:auto;}
+.main>.list>dl>dd.sub { margin-top:20px;}
+.main>.list>dl>dd.sub>b { display:block;}
+.main>.list>dl>dd.sub>.long { width:98%;}
+.main>.list>table>thead>tr { height:30px;}
+.main>.list>table>thead>tr>.cmd { width:150px;}
+.main>.list>table>tbody>tr:nth-child(2n) { background-color:rgba(255,255,255,0.9);}
+.main>.list>table>tbody>tr.wait { background-color:#FFC;}
+.main>.list>table>tbody>tr.save { background-color:#DFE;}
+.main>.list>table>tbody>tr.cancel { background-color:#FDD;}
+.main>.list>table>tbody>tr.del { background-color:#CCC;}
+.main>.list>table>tbody>tr>td.sub>b { display:block; margin-bottom:5px;}
+.main>.list>table>tbody>tr>td>img { display:block; width:90px;}
+.main>.list>table>tbody>tr>td>p { line-height:20px; color:#666;}
+.main>.list>table>tbody>tr>td>.pic { background:#F6F6F6; width:120px; height:90px; border:2px solid #FFF; float:left;}
+.main>.list>table>tbody>tr>td>.pic>img { width:100%; height:100%;}
+.main>.list>table>tbody>tr>td>.body { margin:0 100px 0 140px;}
+.main>.list>table>tbody>tr>td>.body>b { display:block; width:100%; height:20px; line-height:20px; margin:5px 0; overflow:hidden; font-size:16px;}
+.main>.list>table>tbody>tr>td>.body>p { width:100%; line-height:20px; overflow:hidden; color:#666; text-indent:2em;}
+.main>.list>table>tbody>tr>td>.date { width:80px; line-height:20px; margin-top:30px; float:right;}
+.main>.hover>table>tbody>tr:hover { background-color:#FFC;}
+.main>.count>table>tbody>tr>td>a { color:#09F;}
+.main>.count>table>tbody>tr>td>a:hover { color:#F60;}
+.main>.percent>table>tbody>tr>td>span { display:block; background-color:#9DCEF7; height:20px;}
+.main>.percent>table>tbody>tr>td>i { font-style:normal;}
+
+.main>.bbs>.rule { background-color:#FEEDA8; margin-top:10px; padding:15px; border:1px solid #D39453;}
+.main>.bbs>.rule>p { line-height:24px; padding-top:5px; color:#666; text-indent:2em;}
+.main>.bbs>.master { margin:15px 5px; float:left;}
+.main>.bbs>.cmd { margin:10px 0; float:right;}
+.main>.bbs>.cmd>a { display:inline-block; background-color:#EEE; margin:0 3px; border:1px solid #999;}
+.main>.bbs>.cmd>a { padding:0;}
+.main>.bbs>.cmd>a>u { display:block; line-height:24px; margin:1px; padding:0 5px; border-left:3px solid #F60; text-align:center; text-decoration:none;}
+.main>.bbs>table>thead>tr { background-color:#D39453;}
+.main>.bbs>table>thead>tr>th { line-height:30px;}
+.main>.bbs>table>thead>tr>td { padding:13px; font-weight:bold;}
+.main>.bbs>table>tbody>tr { background-color:#FFF;}
+.main>.bbs>table>tbody>tr:hover { background-color:none;}
+.main>.bbs>table>tbody>tr>.num { width:50px;}
+.main>.bbs>table>tbody>tr>.cmd { width:100px; text-align:center;}
+.main>.bbs>table>tbody>tr>td>table { width:100%; border-spacing:0;}
+.main>.bbs>table>tbody>tr>td>table>tbody>tr.bottom { background-color:rgba(150,100,0,0.1);}
+.main>.bbs>table>tbody>tr>td>table>tbody>tr>td { line-height:24px; padding:5px; vertical-align:top;}
+.main>.bbs>table>tbody>tr>td>table>tbody>tr>td>a { color:#D39453; font-weight:bold;}
+.main>.bbs>table>tbody>tr>td>table>tbody>tr>td>a:hover { color:initial;}
+.main>.bbs>table>tbody>tr>td>table>tbody>tr>td>i { background-color:#CCC; width:20px; height:20px; float:left;}
+.main>.bbs>table>tbody>tr>td>table>tbody>tr>td>p { display:block; margin-left:25px;}
+.main>.bbs>table>tbody>tr>td>table>tbody>tr>td.less { width:350px; color:#666;}
+.main>.bbs>table>tbody>tr>td>table>tbody>tr>td.less>b { float:left;}
+.main>.bbs>table>tbody>tr>td>table>tbody>tr>td.less>span { float:left; width:300px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; -o-text-overflow:ellipsis;}
+.main>.bbs>table>tbody>tr>td>table>tbody>tr>td.less>div { width:33%; float:left;}
+.main>.bbs>table>tbody>tr>td>table>tbody>tr>td.less>div>span { color:#999;}
+.main>.bbs>table>tbody>tr>td>table>tbody>tr>td.less>div>b { color:#F00; text-decoration:none;}
+.main>.board>table>tbody>tr>td { padding:0;}
+.main>.topic>table>tbody>tr>td { line-height:20px; padding:10px 5px;}
+.main>.post>table>thead>tr>th { width:200px; border-right:1px solid #FFF;}
+.main>.post>table>tbody>tr>th { padding:15px; vertical-align:top;}
+.main>.post>table>tbody>tr>th>img { max-width:80%; margin:8px 0; border:1px solid #FFF;}
+.main>.post>table>tbody>tr>td { padding:0; vertical-align:top;}
+.main>.post>table>tbody>tr>td>.bar { padding:15px 10px; border-bottom:1px solid #D39453;}
+.main>.post>table>tbody>tr>td>.bar>.btn { float:right;}
+.main>.post>table>tbody>tr>td>.bar>.btn>a.cmd { text-decoration:underline;}
+.main>.post>table>tbody>tr>td>.body { margin:20px; overflow:hidden;}
+.main>.post>table>tbody>tr>td>.body img { max-width:100%; max-height:400px;}
+.main blockquote { display:block; background-color:#f1f1f1; line-height:1.4; margin:10px 0; padding:5px 10px; border-left:8px solid #d0e5f2; font-size:100%;}

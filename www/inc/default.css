@@ -1,0 +1,34 @@
+﻿/*tony维护Microsoft YaHei,*/
+body { margin:auto; padding:0; color:#333; font-size:14px; font-family:宋体,Verdana,Lucida Grande,Lucida,sans-serif;}
+form, dl, dt, dd, ul, ol, li, p { margin:0; padding:0;}
+a { color:#444; text-decoration:none;}
+a:hover { color:#F60; text-decoration:none;}
+img { border:0;}
+table{ border-collapse:separate; border-spacing:1px;}  
+th, td{ padding:0;}
+.warn { color:#F00;}
+
+#dialog { z-index:30000; position:fixed; top:0; left:0; background-color:rgba(255,255,255,0.5); width:100%; height:100%;}
+#dialog>div { position:absolute; top:50%; left:50%; background-color:#FFF; border:1px solid #CCC; border-radius:10px; box-shadow:0 0 6px 2px #CCC;}
+#dialog>div>.title { position:relative; background-color:#D39453; line-height:36px; padding:0 10px; color:#FFF; border-radius:5px 5px 0 0; font-size:16px;}
+#dialog>div>.title>a { cursor:pointer; position:absolute; top:8px; right:6px; display:block; background-color:#FFF; width:24px; height:24px; line-height:24px; border-radius:50%; color:#333; text-align:center; font-size:18px; font-family:Arial;}
+#dialog>div>.body { overflow:hidden;}
+#dialog>div>.body>iframe { border-radius:0 0 5px 5px;}
+
+.login2 { padding:100px 0;}
+.login { margin:auto;}
+.login>span { display:block; height:100px;}
+.login>dl { display:block; width:398px; min-height:258px; margin:auto; padding-bottom:20px; border:1px solid #D39453; border-radius:5px;}
+.login>dl>dt { background-color:#F8DDB2; margin-bottom:19px; padding:15px 0; border-bottom:1px solid #D39453; border-radius:5px 5px 0 0; text-align:center; font-size:16px; font-weight:bold;}
+.login>dl>dd { margin:auto; padding:10px 60px;}
+.login>dl>dd.code { position:relative;}
+.login>dl>dd.code>img { position:absolute; top:10px; right:74px; background-color:#EEE; width:64px; height:24px;}
+.login>dl>dd.code>input { width:90px; height:24px; line-height:24px; padding:0 5px; border:1px solid #CCC; letter-spacing:5px;}
+.login>dl>dd.txt>input { width:180px; height:24px; line-height:24px; padding:0 5px; border:1px solid #CCC;}
+.login>dl>dd.txt>input.readonly { background-color:#F9F9F9; color:#666;}
+.login>dl>dd.btn { text-align:center;}
+.login>dl>dd.btn>input { background-color:#E6E6E6; width:100px; height:32px; margin:0 10px; border:1px solid #999; border-radius:8px;}
+.login>dl>dd.btn>a { display:inline-block; background-color:#E6E6E6; width:100px; height:20px; line-height:20px; margin:0 10px; padding:5px 0; border:1px solid #999; border-radius:8px; float:right;}
+.login>dl>dd.btn>a>i.wx { background:url(m/ico.png) 0 -40px no-repeat; width:20px; height:20px; float:left; margin-left:10px;}
+
+.content i.flag { display:inline-block; background-color:#F00; line-height:18px; padding:0 3px; margin-right:4px; border-radius:3px; color:#FFF; font-style:normal; font-size:12px;}
