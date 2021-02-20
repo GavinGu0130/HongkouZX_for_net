@@ -34,3 +34,7 @@ C:\download\hongkouZX源码2021\hkzx.user\obj\Debug\hkzx.user.csprojAssemblyRefe
 C:\download\hongkouZX源码2021\hkzx.user\obj\Debug\hkzx.user.csproj.CoreCompileInputs.cache
 C:\download\hongkouZX源码2021\hkzx.user\obj\Debug\hkzx.user.dll
 C:\download\hongkouZX源码2021\hkzx.user\obj\Debug\hkzx.user.pdb
+C:\gavin_workspace\HongkouZX_for_net\hkzx.user\obj\Debug\hkzx.user.csprojAssemblyReference.cache
+C:\gavin_workspace\HongkouZX_for_net\hkzx.user\obj\Debug\hkzx.user.csproj.CoreCompileInputs.cache
+C:\gavin_workspace\HongkouZX_for_net\hkzx.user\obj\Debug\hkzx.user.dll
+C:\gavin_workspace\HongkouZX_for_net\hkzx.user\obj\Debug\hkzx.user.pdb

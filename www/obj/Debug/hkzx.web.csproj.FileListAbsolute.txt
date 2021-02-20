@@ -41,3 +41,8 @@ C:\download\hongkouZX源码2021\www\obj\Debug\hkzx.web.csproj.ResolveComReferenc
 C:\download\hongkouZX源码2021\www\obj\Debug\hkzx.web.csproj.CoreCompileInputs.cache
 C:\download\hongkouZX源码2021\www\obj\Debug\hkzx.web.dll
 C:\download\hongkouZX源码2021\www\obj\Debug\hkzx.web.pdb
+C:\gavin_workspace\HongkouZX_for_net\www\obj\Debug\hkzx.web.csprojAssemblyReference.cache
+C:\gavin_workspace\HongkouZX_for_net\www\obj\Debug\hkzx.web.csproj.ResolveComReference.cache
+C:\gavin_workspace\HongkouZX_for_net\www\obj\Debug\hkzx.web.csproj.CoreCompileInputs.cache
+C:\gavin_workspace\HongkouZX_for_net\www\obj\Debug\hkzx.web.dll
+C:\gavin_workspace\HongkouZX_for_net\www\obj\Debug\hkzx.web.pdb
